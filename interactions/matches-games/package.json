@@ -1,0 +1,34 @@
+{
+  "name": "matches-game",
+  "version": "1.0.0",
+  "description": "火柴游戏",
+  "main": "dist/main.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pack": "webpack --config ./build/webpack.prod.conf.js",
+    "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-transform-runtime": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "@peiyou/bulk-copy-webpack-plugin": "^1.0.3",
+    "babel-loader": "^8.1.0",
+    "html-webpack-plugin": "^4.2.0",
+    "ts-loader": "^6.2.2",
+    "typescript": "^3.8.3",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3",
+    "webpack-merge": "^4.2.2",
+    "webpack-node-externals": "^1.7.2"
+  },
+  "dependencies": {
+    "@peiyou/app-manager": "^0.2.22",
+    "@peiyou/interaction-common-component": "^1.0.17"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "@peiyou/interaction-components",
+  "version": "1.0.119",
+  "dependencies": {
+    "@peiyou/app-manager": "^0.2.38",
+    "child_process": "^1.0.2",
+    "fs": "0.0.1-security"
+  },
+  "scripts": {
+    "pack": "node ./build/pack.js",
+    "pub": "node ./build/publish.js"
+  },
+  "devDependencies": {
+    "@peiyou/npmpub": "^1.0.15",
+    "ts-loader": "^6.0.1",
+    "typescript": "^3.7.3",
+    "pre-commit": "^1.2.2"
+  },
+  "//pre-commit": [
+    "pack"
+  ]
+}
